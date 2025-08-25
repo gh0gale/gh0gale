@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Yash Ghogale</h1>
-- 👨‍💻 All of my projects are available at [yashghogale.vercel.app](yashghogale.vercel.app)
+- 👨‍💻 All of my projects are available at [portfolio](yashghogale.vercel.app)
 
 - 📫 How to reach me **info.ghogale@gmail.com**
 
