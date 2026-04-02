@@ -1,15 +1,65 @@
-# 💫 About Me:
- Hi 👋, I'm Yash Ghogale<br>📫 How to reach me info.ghogale@gmail.com<br>👨‍💻 All of my projects are available at https://yashghogale.vercel.app/<br>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/render?type=soft&color=1a1b27&height=200&section=header&text=Yash%20Ghogale%20|%20Data%20%26%20MLOps%20Architect&fontSize=40&animation=fadeIn&fontColor=70a5fd" />
+</p>
+
+<p align="center">
+  <a href="https://linkedin.com/in/yash-ghogale-21b115335/">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:info.ghogale@gmail.com">
+    <img src="https://img.shields.io/badge/Transmission-Email-blue?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://yashghogale.vercel.app/">
+    <img src="https://img.shields.io/badge/Access-Portfolio-purple?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</p>
+
+---
+
+### 🛰️ Core Systems Overview
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚡ SpendStream</h4>
+      <p align="justify">
+        <b>Autonomous Financial Intelligence System</b><br>
+        Engineered to autonomously parse digital footprints and bank transaction data, delivering real-time, high-fidelity spending insights without manual oversight.
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📍 Travelr</h4>
+      <p align="justify">
+        <b>Geospatial Coordination Engine</b><br>
+        A high-concurrency engine designed to synchronize travelers on parallel routes, optimizing urban commuter flow and maximizing resource efficiency.
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🏗️ System Architecture (Engineering Stack)
+| Category | Stack |
+| :--- | :--- |
+| **Data Ingestion & Pipelines** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white) ![SSIS](https://img.shields.io/badge/SSIS-0078D4?style=flat-square&logo=microsoft&logoColor=white) |
+| **Platforms & Cloud** | ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) |
+| **Intelligence & Deployment** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MLOps](https://img.shields.io/badge/MLOps-000000?style=flat-square&logo=github-actions&logoColor=white) ![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=power-bi&logoColor=black) |
+
+---
 
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/yash-ghogale-21b115335/) 
 
-# 💻 Tech Stack:
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=gh0gale&theme=codeSTACKr&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=gh0gale&theme=codeSTACKr&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=gh0gale&theme=codeSTACKr&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+### 📊 Performance Analytics
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gh0gale&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gh0gale&theme=tokyonight&layout=compact&hide_border=true" width="48%" />
+</p>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gh0gale&theme=tokyonight&hide_border=true" width="100%" />
+</p>
+
+---
+<p align="center">
+  <i>"Data is the fuel; engineering is the engine."</i>
+</p>
