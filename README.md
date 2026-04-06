@@ -155,7 +155,7 @@ Matches users traveling similar routes in real-time — with live tracking, chat
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Built+with+intentionality.+Engineered+for+scale." alt="footer" />
 </div>
 
 <div align="center">
