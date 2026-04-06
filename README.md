@@ -2,7 +2,9 @@
 
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Yash%20Ghogale&fontSize=52&fontAlignY=36&desc=Data%20Engineer%20%E2%80%A2%20ML%20Systems%20%E2%80%A2%20Pipeline%20Architect&descSize=18&descAlignY=58&animation=twinkling&fontColor=FFFFFF" width="100%"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=70A5FD&center=true&vCenter=true&width=600&height=80&lines=Yash+Ghogale" alt="Yash Ghogale"/>
+  <br/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A9B1D6&center=true&vCenter=true&width=600&height=40&lines=Data+Engineer+%E2%80%A2+ML+Systems+%E2%80%A2+Pipeline+Architect" alt="subtitle"/>
 </div>
 
 <br>
@@ -32,7 +34,7 @@
 ```python
 yash = {
     "role"        : "Data Engineer & ML Systems Builder",
-    "education"   : "B.Tech CSE (Data Science) @ DJSCE Mumbai — CGPA 9.014",
+    "education"   : "B.Tech CSE (Data Science) @ DJSCE Mumbai",
     "honors"      : "Computational Finance",
     "currently"   : "Building SpendStream — an autonomous financial intelligence engine",
     "interests"   : ["ETL Pipelines", "Medallion Architecture", "Applied ML", "Geospatial Systems"],
@@ -154,10 +156,12 @@ Matches users traveling similar routes in real-time — with live tracking, chat
 
 ---
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Built+with+intentionality.+Engineered+for+scale." alt="footer" />
-</div>
+</div> -->
 
 <div align="center">
-  <sub>Built with intentionality. Engineered for scale.</sub>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Built+with+intentionality.+Engineered+for+scale." alt="footer"/>
 </div>
+
+
