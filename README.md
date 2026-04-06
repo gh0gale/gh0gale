@@ -4,7 +4,7 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=70A5FD&center=true&vCenter=true&width=600&height=80&lines=Yash+Ghogale" alt="Yash Ghogale"/>
   <br/>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A9B1D6&center=true&vCenter=true&width=600&height=40&lines=Data+Engineer+%E2%80%A2+ML+Systems+%E2%80%A2+Pipeline+Architect" alt="subtitle"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=A9B1D6&center=true&vCenter=true&width=600&height=40&lines=Data+Engineer+%E2%80%A2+Pipeline+Architect" alt="subtitle"/>
 </div>
 
 <br>
