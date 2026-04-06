@@ -56,10 +56,6 @@ yash = {
 > **Autonomous financial intelligence pipeline**
 
 Extracts UPI transactions from Gmail, categorizes them with a hybrid ML stack, and surfaces insights — fully automated, zero manual effort.
-
-- 🏛️ Medallion architecture (Bronze → Silver → Gold) with deduplication via fingerprinting
-- 🧠 Classification: TF-IDF char n-grams + transformer embeddings + metadata bias, trained via SGD with feedback reweighting
-- ⚡ **~93% accuracy**, **~20–30ms** real-time predictions, adaptive from user corrections
 - 🔧 `FastAPI` · `Supabase (PostgreSQL)` · `Gmail API` · `ReactJS`
 
 </td>
@@ -69,10 +65,6 @@ Extracts UPI transactions from Gmail, categorizes them with a hybrid ML stack, a
 > **Production-grade Delta Lake pipeline on Databricks**
 
 End-to-end lakehouse with incremental ingestion, CDC-driven transformations, and analytics-ready Gold layer output.
-
-- 🔄 PySpark CDC pipelines with ACID transactions, idempotent merges, deduplication
-- 🤖 Auto Loader for raw→bronze; parameterized, reusable silver-layer logic
-- 📐 Delta Lake (Bronze–Silver–Gold) with full ACID guarantees
 - 🔧 `PySpark` · `Databricks` · `Delta Lake` · `SQL`
 
 </td>
@@ -84,10 +76,6 @@ End-to-end lakehouse with incremental ingestion, CDC-driven transformations, and
 > **Geospatial co-traveler matching engine**
 
 Matches users traveling similar routes in real-time — with live tracking, chat, and privacy-first location sharing.
-
-- 📡 Multi-stage geo-filtering: centroid proximity → bounding box → direction alignment → KD-Tree route overlap
-- ⚡ **~90% reduction** in computation overhead for recommendations
-- 🔴 WebSocket real-time chat + live ETA updates
 - 🔧 `Flutter` · `Firebase` · `FastAPI` · `Google Routes API`
 
 </td>
