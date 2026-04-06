@@ -33,7 +33,7 @@
 
 ```python
 yash = {
-    "role"        : "Data Engineer & ML Systems Builder",
+    "role"        : "Data Engineer & ML Workflows Builder",
     "education"   : "B.Tech CSE (Data Science) @ DJSCE Mumbai",
     "honors"      : "Computational Finance",
     "currently"   : "Building SpendStream — an autonomous financial intelligence engine",
