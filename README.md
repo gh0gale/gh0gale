@@ -59,26 +59,7 @@ Extracts UPI transactions from Gmail, categorizes them with a hybrid ML stack, a
 - 🔧 `FastAPI` · `Supabase (PostgreSQL)` · `Gmail API` · `ReactJS`
 
 </td>
-<td width="50%" valign="top">
 
-### 🏗️ Modern Data Lakehouse &nbsp; ![Status](https://img.shields.io/badge/Feb%202026-complete-blue?style=flat-square)
-> **Production-grade Delta Lake pipeline on Databricks**
-
-End-to-end lakehouse with incremental ingestion, CDC-driven transformations, and analytics-ready Gold layer output.
-- 🔧 `PySpark` · `Databricks` · `Delta Lake` · `SQL`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🗺️ Travelr &nbsp; ![Status](https://img.shields.io/badge/Dec%202025-complete-blue?style=flat-square)
-> **Geospatial co-traveler matching engine**
-
-Matches users traveling similar routes in real-time — with live tracking, chat, and privacy-first location sharing.
-- 🔧 `Flutter` · `Firebase` · `FastAPI` · `Google Routes API`
-
-</td>
 
 </tr>
 </table>
