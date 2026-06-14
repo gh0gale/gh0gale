@@ -25,69 +25,44 @@
   <img src="https://komarev.com/ghpvc/?username=gh0gale&style=for-the-badge&color=6e40c9&label=PROFILE+VIEWS" />
 </div>
 
+
 <br>
 
 ---
 
-## `> whoami`
+## `{ role: "data engineer", focus: "pipelines that think" }`
 
-```python
-yash = {
-    "role"        : "Data Engineer & ML Workflows Builder",
-    "education"   : "B.Tech CSE (Data Science) @ DJSCE Mumbai",
-    "honors"      : "Computational Finance",
-    "currently"   : "Building SpendStream — an autonomous financial intelligence engine",
-    "interests"   : ["ETL Pipelines", "Medallion Architecture", "Applied ML", "Geospatial Systems"],
-    "motto"       : "Build systems that think, adapt, and scale — without you having to babysit them."
-}
+build systems that move, clean, model, and surface data — with as little babysitting as possible.  
+Currently studying **B.Tech CSE (Data Science)** @ DJSCE Mumbai · Class of 2027 
+
+---
+
+## `> currently building`
+
+**INVR** — an AI-powered investment advisory/tutoring platform that performs stock analysis across multiple time horizons and delivers explainable financial insights.
+
+> *Context-aware. Mathematically grounded. No black boxes.*
+
+---
+
+## `> domain map`
+
+```
+Data Engineering       ████████████████████  ETL/ELT · Medallion Architecture · Delta Lake
+                       ████████████████      PySpark · Databricks · SSIS · SSMS · SSAS
+
+AI / LLM Workflows     ███████████████       LangGraph · LangChain · RAG · LLMs
+                       ████████████      
+
+Developement           █████████████████     FastAPI · Supabase (PostgreSQL)
+                       ████████████          Firebase · ReactJS
+
+BI & Visualization     ████████████          Power BI · MySQL · Dimensional modelling
 ```
 
-<br>
-
 ---
 
-## `> ls ~/projects`
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### ⚡ SpendStream &nbsp; ![Status](https://img.shields.io/badge/status-ongoing-brightgreen?style=flat-square)
-> **Autonomous financial intelligence pipeline**
-
-Extracts UPI transactions from Gmail, categorizes them with a hybrid ML stack, and surfaces insights — fully automated, zero manual effort.
-- 🔧 `FastAPI` · `Supabase (PostgreSQL)` · `Gmail API` · `ReactJS`
-
-</td>
-
-
-</tr>
-</table>
-
-<br>
-
----
-
-## `> cat ~/.techstack`
-
-<div align="center">
-
-| Domain | Tools |
-|:---|:---|
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| **Data & Pipelines** | ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![SSIS](https://img.shields.io/badge/SSIS-0078D4?style=flat-square&logo=microsoft&logoColor=white) |
-| **Platforms** | ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=black) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) |
-| **APIs & Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white) ![ReactJS](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) |
-| **BI & Visualization** | ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=power-bi&logoColor=black) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![SSMS](https://img.shields.io/badge/SSMS-0078D4?style=flat-square&logo=microsoft&logoColor=white) |
-| **ML** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=flat-square&logo=huggingface&logoColor=black) |
-
-</div>
-
-<br>
-
----
-
-## `> git log --oneline --stat`
+## `> git log`
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=gh0gale&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&card_width=420" height="175"/>
@@ -98,39 +73,17 @@ Extracts UPI transactions from Gmail, categorizes them with a hybrid ML stack, a
 <br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gh0gale&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&stroke=6e40c9&ring=6e40c9&fire=ff6b6b" width="70%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gh0gale&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&stroke=F0A500&ring=F0A500&fire=ff6b6b" width="70%"/>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gh0gale&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" width="95%"/>
+  <img src="/metrics_plugin_isocalendar_fullyear.svg" width="480"/>
 </div>
 
-<br>
-
 ---
-
-## `> uptime`
-
-```
-📍 Mumbai, India
-🎓 B.Tech CSE @ DJSCE — Class of 2027
-🔭 Currently: SpendStream (autonomous spending intelligence)
-📚 Honors: Computational Finance
-⚡ Fun fact: I'd rather automate the boring stuff than do it twice
-```
-
-<br>
-
----
-
-<!-- <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Built+with+intentionality.+Engineered+for+scale." alt="footer" />
-</div> -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Built+with+intentionality.+Engineered+for+scale." alt="footer"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=1000&color=F0A500&center=true&vCenter=true&width=600&lines=pipelines+over+spreadsheets.+systems+over+scripts.+always." alt="footer"/>
 </div>
-
-
