@@ -54,7 +54,7 @@ Data Engineering       ███████████████████
 AI / LLM Workflows     ███████████████       LangGraph · LangChain · RAG · Ollama
                        ████████████      
 
-Developement           █████████████████     ReactJS · NodeJS · ExpressJS · FastAPI ·  
+Developement           █████████████████     ReactJS · NodeJS · ExpressJS · FastAPI  
                        ████████████          
 
 BI & Visualization     ████████████          Power BI · OLAP · Postgresql 
