@@ -48,16 +48,16 @@ Currently studying **B.Tech CSE (Data Science)** @ DJSCE Mumbai · Class of 2027
 ## `> domain map`
 
 ```
-Data Engineering       ████████████████████  ETL/ELT · Medallion Architecture · Delta Lake
-                       ████████████████      PySpark · Databricks · SSIS · SSMS · SSAS
+Data Engineering       ████████████████████  ETL/ELT · Data Architecture · Data modelling · PySpark
+                       ████████████████      Open Tables · Databricks · SSIS · SSMS · SSAS
 
-AI / LLM Workflows     ███████████████       LangGraph · LangChain · RAG · LLMs
+AI / LLM Workflows     ███████████████       LangGraph · LangChain · RAG · Ollama
                        ████████████      
 
-Developement           █████████████████     FastAPI · Supabase (PostgreSQL)
-                       ████████████          Firebase · ReactJS
+Developement           █████████████████     ReactJS · NodeJS · ExpressJS · FastAPI ·  
+                       ████████████          
 
-BI & Visualization     ████████████          Power BI · MySQL · Dimensional modelling
+BI & Visualization     ████████████          Power BI · OLAP · Postgresql 
 ```
 
 ---
