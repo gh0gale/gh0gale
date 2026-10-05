@@ -1,0 +1,64 @@
+<svg viewBox="0 0 900 330" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="15">
+  <style>
+    .cover { fill:#0D1117; transform-box:fill-box; transform-origin:100% 50%; }
+    .out   { opacity:0; }
+    .p     { fill:#3FB950; }
+    .cmd   { fill:#e6edf3; }
+    .o1 { fill:#70A5FD; } .o2 { fill:#e3b341; } .o3 { fill:#9aa5b1; } .o4 { fill:#3FB950; }
+
+    .c1 { animation:t1 14s steps(6) infinite; }
+    .c2 { animation:t2 14s steps(13) infinite; }
+    .c3 { animation:t3 14s steps(12) infinite; }
+    .c4 { animation:t4 14s steps(12) infinite; }
+    @keyframes t1 { 0%,3%{transform:scaleX(1)} 9%,96%{transform:scaleX(0)} 96.1%,100%{transform:scaleX(1)} }
+    @keyframes t2 { 0%,22%{transform:scaleX(1)} 31%,96%{transform:scaleX(0)} 96.1%,100%{transform:scaleX(1)} }
+    @keyframes t3 { 0%,41%{transform:scaleX(1)} 50%,96%{transform:scaleX(0)} 96.1%,100%{transform:scaleX(1)} }
+    @keyframes t4 { 0%,60%{transform:scaleX(1)} 69%,96%{transform:scaleX(0)} 96.1%,100%{transform:scaleX(1)} }
+
+    .a1 { animation:s1 14s infinite; } .a2 { animation:s2 14s infinite; }
+    .a3 { animation:s3 14s infinite; } .a4 { animation:s4 14s infinite; }
+    @keyframes s1 { 0%,10%{opacity:0} 11%,96%{opacity:1} 96.1%,100%{opacity:0} }
+    @keyframes s2 { 0%,32%{opacity:0} 33%,96%{opacity:1} 96.1%,100%{opacity:0} }
+    @keyframes s3 { 0%,51%{opacity:0} 52%,96%{opacity:1} 96.1%,100%{opacity:0} }
+    @keyframes s4 { 0%,70%{opacity:0} 71%,96%{opacity:1} 96.1%,100%{opacity:0} }
+
+    .cursor { animation:blink 1s steps(1) infinite; fill:#00D4FF; }
+    @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+  </style>
+
+  <rect width="900" height="330" rx="14" fill="#0D1117" stroke="#30363d"/>
+  <rect width="900" height="38" rx="14" fill="#161b22"/>
+  <rect y="24" width="900" height="14" fill="#161b22"/>
+  <circle cx="26" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="70" cy="19" r="6" fill="#27c93f"/>
+  <text x="450" y="24" text-anchor="middle" fill="#6e7681" font-size="13">yash@pipeline: ~</text>
+
+  <!-- 1 -->
+  <text x="36" y="92" class="p">$</text>
+  <text x="58" y="92" class="cmd">whoami</text>
+  <rect x="58" y="76" width="62" height="22" class="cover c1"/>
+  <text x="58" y="116" class="out o1 a1">yash-ghogale · data engineer · mumbai</text>
+
+  <!-- 2 -->
+  <text x="36" y="142" class="p">$</text>
+  <text x="58" y="142" class="cmd">cat focus.txt</text>
+  <rect x="58" y="126" width="125" height="22" class="cover c2"/>
+  <text x="58" y="166" class="out o2 a2">pipelines that think. no black boxes.</text>
+
+  <!-- 3 -->
+  <text x="36" y="192" class="p">$</text>
+  <text x="58" y="192" class="cmd">ls projects/</text>
+  <rect x="58" y="176" width="116" height="22" class="cover c3"/>
+  <text x="58" y="216" class="out o3 a3">INVR/   SpendStream/   Travelr/</text>
+
+  <!-- 4 -->
+  <text x="36" y="242" class="p">$</text>
+  <text x="58" y="242" class="cmd">status --now</text>
+  <rect x="58" y="226" width="116" height="22" class="cover c4"/>
+  <text x="58" y="266" class="out o4 a4">● open to data &amp; AI engineering roles</text>
+
+  <!-- idle prompt -->
+  <text x="36" y="312" class="p">$</text>
+  <rect x="58" y="298" width="9" height="17" class="cursor"/>
+</svg>
