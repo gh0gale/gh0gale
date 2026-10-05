@@ -14,16 +14,7 @@
 
 </div>
 
-<br>
 
-```text
- BRONZE  →  SILVER  →  GOLD
- raw        trusted    ready to use
-```
-
-I organise this page the way I organise data: **raw facts first, refined layers after, the polished result last.**
-
----
 
 ## 🥉 Bronze · who I am (raw)
 
