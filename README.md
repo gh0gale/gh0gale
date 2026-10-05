@@ -10,7 +10,7 @@
 
 <br>
 
-<img src="assets/pipeline.svg" width="100%" alt="raw to bronze to silver to gold to deterministic engine to LLM"/>
+
 
 </div>
 
