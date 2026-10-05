@@ -1,128 +1,80 @@
 <div align="center">
 
-# Yash Ghogale
+# hey, I'm Yash 👋
 
-**I build data pipelines, then stop LLMs from touching the math.**
+### I make messy data trustworthy, then let AI explain it.
 
-Mumbai · B.Tech CSE (Data Science), DJSCE · CGPA 9.05 · Honors in Computational Finance
-
-[LinkedIn](https://linkedin.com/in/yash-ghogale) · [Portfolio](https://portfolio-agent-gh0gale.vercel.app) · [info.ghogale@gmail.com](mailto:info.ghogale@gmail.com)
-
-<br>
-
-<img src="assets/pipeline.svg" width="100%" alt="Raw data flows through bronze, silver and gold layers into a deterministic engine, then an LLM narrates the verdict"/>
+<img src="assets/pipeline.svg" width="100%" alt="data flows through bronze, silver, gold into a deterministic engine, then an LLM narrates"/>
 
 </div>
 
----
+<br>
 
-## The idea I keep coming back to
+I'm a student in Mumbai who got a little obsessed with one question:
 
-Most "AI" products let the model do everything: fetch, calculate, decide, explain. That's where hallucinations come from.
+> **Why do AI products confidently say wrong things, and how do you build one that can't?**
 
-I build the other way around. **Data engineering produces the truth. Deterministic code makes the decision. The LLM only explains it.** Each layer is testable on its own, and the model never gets the chance to invent a number.
+My answer so far: don't let the model near the numbers. Clean the data properly, let plain code make the decision, and use the LLM only to explain it in human words. Everything I build is another attempt at that.
 
-Every project below is a version of that.
+<br>
 
----
+## things I've built
 
-## INVR: stock analysis you can audit
+### 📈 [INVR](https://github.com/gh0gale): a stock advisor that can't make up numbers
+Type in any NSE stock and get a verdict plus an explanation. The scoring is completely deterministic. The LLM never sees the verdict until after it has written its part, and then the real result is slotted in. It checks itself against what the market actually did, too.
+<br>`FastAPI · LangGraph · Supabase · React` · **[live demo →](https://portfolio-agent-gh0gale.vercel.app)**
 
-*Live demo · July 2026 · [the thing I'm most proud of]*
+### 💸 [SpendStream](https://github.com/gh0gale): where does my money actually go?
+It reads your Gmail, finds the transactions, and tells you what your spending says about you. Every correction you make teaches the classifier, and it still answers in ~25 ms.
+<br>`Gmail API · Supabase · scikit-learn · React` · **[live demo →](https://portfolio-agent-gh0gale.vercel.app)**
 
-Type in any NSE stock. In 2-3 seconds you get a verdict across 4 trading timeframes, plus a plain-English explanation of why.
+### 🚆 [Travelr](https://github.com/gh0gale): find someone heading your way
+It races the Google Routes API against my own A\* train router, then matches you with people on overlapping routes and tracks everyone live.
+<br>`Flutter · FastAPI · WebSockets · Redis`
 
-```
-              ┌─ 20+ technical indicators
- price data ──┤                                ┌─ deterministic verdict (no LLM)
- (medallion   └─ 15 weighted gates ────────────┤
-  ETL)                                         └─ LangGraph (5 nodes)
-                                                    │
-                                                    ▼
-                           LLM writes the narration (0.5-1s),
-                           verdict injected AFTER inference
-```
+<br>
 
-**Decisions I'd defend in an interview**
+<details>
+<summary><b>the numbers, if you like numbers</b></summary>
+<br>
 
-- **The verdict is injected after the LLM runs.** The model writes around the numbers and never generates them, so it can't hallucinate a financial claim.
-- **15 weighted gates instead of one opaque score.** Any verdict can be traced to the exact gates that fired.
-- **A feedback loop that checks itself.** Predictions are compared with real market outcomes, threshold drift is flagged, and the system retrains. Backtested over 2 years at **75-80% directional accuracy**.
-- **A tutor mode, not just a verdict.** Four intent-routing modes with per-user memory, so it teaches instead of just answering.
+- **INVR:** 20+ indicators, 15 weighted gates, 4 timeframes, verdicts in 2-3 s, narration in under a second, 75-80% directional accuracy backtested over 2 years
+- **SpendStream:** 300+ transactions, 12 categories, 100+ merchants normalised, 87.8% accuracy
+- **Travelr:** meet points accurate to 30-50 m, live alerts for 1,000+ users
 
-`Supabase (Postgres)` `FastAPI` `ReactJS` `LangChain` `LangGraph` `Groq (gpt-oss-120b)`
+</details>
 
----
+<details>
+<summary><b>where I learned to take data seriously</b></summary>
+<br>
 
-## SpendStream: your inbox, turned into spending behaviour
+A summer as an analyst intern at **Godrej Infotech**, building ETL, schemas and an OLAP cube across 15+ business entities. It taught me that a dashboard is only as honest as the pipeline underneath it. INVR's layered design comes straight from that.
 
-*Live demo · March 2026*
+</details>
 
-Connects to Gmail, extracts transactions, and shows where the money actually goes.
+<details>
+<summary><b>what I work with</b></summary>
+<br>
 
-- **300+ transactions** sorted into **12 categories**, with **100+ merchants** normalised through a medallion flow on scheduled cron jobs
-- A classifier that blends **TF-IDF + transformer embeddings + behavioural signals** through logistic regression, reaching **87.8% accuracy**
-- Corrections feed back into an online refit loop, and inference stays at **~20-30 ms**
+Python, SQL, C++ · PySpark, Databricks, ETL/ELT · LangGraph, LangChain, RAG · FastAPI, React, Node · Postgres, Mongo, Firebase · AWS
 
-*Why logistic regression and not a bigger model?* At 20-30 ms on a small, noisy dataset, a simple model on good features beat complexity I couldn't justify.
+</details>
 
-`Gmail API` `Supabase (PostgreSQL)` `FastAPI` `ReactJS` `Multimodal ML`
+<br>
 
----
+## right now
 
-## Travelr: finding people going your way
-
-*Demo folder · December 2025*
-
-Picks the fastest of 3 travel modes (bus, train, private) and matches you with companions on overlapping routes.
-
-- Pits the **Google Routes API** against a **custom A\* router** over a train station graph and picks the faster result
-- **KD-tree** overlap detection places meet points within **0.03-0.05 km**
-- **WebSocket** GPS tracking with binary-search event lookup and traffic-aware ETAs, pushing alerts to **1,000+ users** at 0.4-0.6 s per recommendation
-- **Redis** re-runs the pipeline only when a route actually changes
-
-`Flutter` `Firebase` `FastAPI` `WebSockets` `Geospatial`
-
----
-
-## Where I learned to do this properly
-
-**Analyst Intern, Godrej Infotech** · Jun-Jul 2025
-
-Real enterprise data across **15+ business entities**:
-
-- Designed relational schemas in SQL Server and turned raw feeds into audit-ready reporting
-- Built SSIS ETL with **Slowly Changing Dimensions** on **8k+ records/day**, so historical reports stayed correct even when classifications changed
-- Extended an **SSAS OLAP cube** with custom hierarchies and calculated measures, moving teams from "send me a SQL query" to self-serve drill-down
-
-This is where "garbage in, garbage out" stopped being a slogan for me. INVR's medallion layers come straight from it.
-
----
-
-## Toolbox
-
-| | |
-|---|---|
-| **Data engineering** | ETL/ELT · medallion architecture · data modeling · PySpark · Databricks · SSIS · SSAS |
-| **AI systems** | LangGraph · LangChain · RAG · ReAct agents · Transformers · NLP · pgvector · ChromaDB |
-| **Backend** | FastAPI · Node.js · Express · REST · WebSockets · Redis |
-| **Frontend** | React · HTML/CSS · Flutter |
-| **Databases** | PostgreSQL · MySQL · MongoDB · Firebase · SQL Server |
-| **Languages** | Python · C · C++ · SQL |
-| **Cloud / tools** | AWS · Git · Postman |
-
-**Certifications:** Generative AI for Data Science (Microsoft, 2026) · Cloud Foundations (AWS Academy, 2025)
-
----
-
-## Now
-
-- Building INVR out further: more timeframes, better drift detection
-- Going deeper on Databricks and open table formats
-- Looking for **data engineering / AI engineering** roles and internships. If you have a messy data problem, [email me](mailto:info.ghogale@gmail.com).
+🔧 making INVR smarter about when its own rules stop working  
+📚 going deeper on Databricks and open table formats  
+🎓 finishing my B.Tech in CS (Data Science) at DJSCE, class of 2027  
+🔎 looking for data and AI engineering roles. If you have a data mess, **[email me](mailto:info.ghogale@gmail.com)**.
 
 <br>
 
 <div align="center">
-  <sub>pipelines over spreadsheets. systems over scripts. always.</sub>
+
+[LinkedIn](https://linkedin.com/in/yash-ghogale) · [Portfolio](https://portfolio-agent-gh0gale.vercel.app) · [Email](mailto:info.ghogale@gmail.com)
+
+<sub>pipelines over spreadsheets. systems over scripts. always.</sub>
+
 </div>
