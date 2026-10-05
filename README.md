@@ -77,13 +77,7 @@ status:      open to Data / AI Engineering roles
 
 ---
 
-## 📡 Reach me
 
-```bash
-$ open https://portfolio-agent-gh0gale.vercel.app    # portfolio
-$ mail info.ghogale@gmail.com                         # email
-$ open https://linkedin.com/in/yash-ghogale           # linkedin
-```
 
 <div align="center">
   <sub>pipelines over spreadsheets · systems over scripts · always</sub>
