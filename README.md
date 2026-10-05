@@ -61,13 +61,11 @@ status:      open to Data / AI Engineering roles
 
 <div align="center">
 
-<img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="49%" alt="profile details"/>
-<img src="profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="stats"/>
+<img src="profile-summary-card-output/github_dark/3-stats.svg" width="48%" alt="stats"/>
+<img src="profile-summary-card-output/github_dark/2-most-commit-language.svg" width="48%" alt="most committed languages"/>
 
-<img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="most committed languages"/>
-<img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="repos per language"/>
-
-<img src="profile-summary-card-output/tokyonight/4-productive-time.svg" width="60%" alt="when I code"/>
+<img src="profile-summary-card-output/github_dark/1-repos-per-language.svg" width="48%" alt="repos per language"/>
+<img src="profile-summary-card-output/github_dark/4-productive-time.svg" width="48%" alt="when I code"/>
 
 <br><br>
 
