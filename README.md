@@ -1,137 +1,99 @@
-<!-- Typing animation introduction -->
-<div align="center">
-  <a href="https://portfolio-agent-gh0gale.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=800&size=31&duration=2400&pause=600&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=720&height=130&lines=Hi%2C+I'm+Yash+Ghogale!;Data+Engineer+%26+Pipeline+Architect;Building+AI+that+can't+make+up+numbers" alt="Typing SVG"/>
-  </a>
-</div>
-
-<h2 align="center"><img src="https://user-images.githubusercontent.com/39955420/147578199-56632b69-b3e8-4d9f-97e2-f046a1c2cba0.gif" alt="divider"></h2>
-
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=vercel&logoColor=black)](https://portfolio-agent-gh0gale.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yash-ghogale)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info.ghogale@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gh0gale)
+<img src="assets/terminal.svg" width="100%" alt="terminal: whoami, focus, projects, status"/>
+
+<br>
+
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-00D4FF?style=flat-square&logo=vercel&logoColor=0D1117)](https://portfolio-agent-gh0gale.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0D1117?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/yash-ghogale)
+[![Email](https://img.shields.io/badge/EMAIL-0D1117?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:info.ghogale@gmail.com)
+
+<br>
+
+<img src="assets/pipeline.svg" width="100%" alt="raw to bronze to silver to gold to deterministic engine to LLM"/>
 
 </div>
 
 <br>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25" /> About me
+```text
+ BRONZE  →  SILVER  →  GOLD
+ raw        trusted    ready to use
+```
 
-- 🎓 Fourth-year **B.Tech CSE (Data Science)** at DJSCE, Mumbai · CGPA **9.05** · Honors in **Computational Finance**
-- 🏗️ I build **medallion-style data pipelines**, then keep LLMs away from the math
-- 📈 Currently building **INVR**, an AI stock advisor with explainable verdicts
-- 🏢 Ex-**Analyst Intern at Godrej Infotech** (SQL Server, SSIS, SSAS)
-- 🔎 Open to **Data / AI Engineering** roles and internships
-
----
-
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25" /> Projects
-
-| | |
-|---|---|
-| 📈 **[INVR](https://github.com/gh0gale)** | AI stock advisor. Deterministic math, LLM only narrates. |
-| 💸 **[SpendStream](https://github.com/gh0gale)** | Gmail to spending insights with a self-improving classifier. |
-| 🚆 **[Travelr](https://github.com/gh0gale)** | Smart commute planner that matches you with people on your route. |
+I organise this page the way I organise data: **raw facts first, refined layers after, the polished result last.**
 
 ---
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25" /> Skills
+## 🥉 Bronze · who I am (raw)
 
-### Languages
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=databricks&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-### AI & LLM
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=00D4FF)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-00D4FF?style=for-the-badge&logoColor=black)
-![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge&logoColor=white)
-
-### Data Engineering & Analytics
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![SSIS](https://img.shields.io/badge/SSIS-5C2D91?style=for-the-badge&logo=microsoft&logoColor=white)
-![SSAS](https://img.shields.io/badge/SSAS-5C2D91?style=for-the-badge&logo=microsoft&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-### Backend
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
-
-### Frontend
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-
-### Databases
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-
-### Tools & Cloud
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+```yaml
+name:        Yash Ghogale
+based_in:    Mumbai, India
+studying:    B.Tech CSE (Data Science), DJSCE, 4th year
+cgpa:        9.05
+honors:      Computational Finance
+worked_at:   Godrej Infotech (Analyst Intern, SQL Server / SSIS / SSAS)
+believes:    "data produces the truth, code decides, the model explains"
+status:      open to Data / AI Engineering roles
+```
 
 ---
 
-<!-- GitHub Activity Graph -->
+## 🥈 Silver · what I work with (cleaned and organised)
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gh0gale&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" width="95%" alt="Activity Graph"/>
+
+| Layer | Tools |
+|:--|:--|
+| **store** | ![Postgres](https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1) ![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=flat-square&logo=supabase&logoColor=3ECF8E) ![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=4479A1) ![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=flat-square&logo=mongodb&logoColor=47A248) ![Firebase](https://img.shields.io/badge/Firebase-0D1117?style=flat-square&logo=firebase&logoColor=FFCA28) ![Redis](https://img.shields.io/badge/Redis-0D1117?style=flat-square&logo=redis&logoColor=DC382D) ![SQL Server](https://img.shields.io/badge/SQL_Server-0D1117?style=flat-square&logo=microsoftsqlserver&logoColor=CC2927) |
+| **transform** | ![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB) ![PySpark](https://img.shields.io/badge/PySpark-0D1117?style=flat-square&logo=apachespark&logoColor=E25A1C) ![Databricks](https://img.shields.io/badge/Databricks-0D1117?style=flat-square&logo=databricks&logoColor=FF3621) ![SSIS](https://img.shields.io/badge/SSIS-0D1117?style=flat-square&logo=microsoft&logoColor=5C2D91) ![SSAS](https://img.shields.io/badge/SSAS-0D1117?style=flat-square&logo=microsoft&logoColor=5C2D91) ![Power BI](https://img.shields.io/badge/Power_BI-0D1117?style=flat-square&logo=powerbi&logoColor=F2C811) |
+| **serve** | ![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688) ![Node](https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=nodedotjs&logoColor=5FA04E) ![Express](https://img.shields.io/badge/Express-0D1117?style=flat-square&logo=express&logoColor=white) ![React](https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB) ![Flutter](https://img.shields.io/badge/Flutter-0D1117?style=flat-square&logo=flutter&logoColor=02569B) ![WebSockets](https://img.shields.io/badge/WebSockets-0D1117?style=flat-square&logo=socketdotio&logoColor=white) |
+| **intelligence** | ![LangGraph](https://img.shields.io/badge/LangGraph-0D1117?style=flat-square&logo=langchain&logoColor=00D4FF) ![LangChain](https://img.shields.io/badge/LangChain-0D1117?style=flat-square&logo=langchain&logoColor=1C9C8C) ![Groq](https://img.shields.io/badge/Groq-0D1117?style=flat-square&logo=groq&logoColor=F55036) ![Ollama](https://img.shields.io/badge/Ollama-0D1117?style=flat-square&logo=ollama&logoColor=white) ![Transformers](https://img.shields.io/badge/Transformers-0D1117?style=flat-square&logo=huggingface&logoColor=FFD21E) ![RAG](https://img.shields.io/badge/RAG-0D1117?style=flat-square&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1) |
+| **ship** | ![AWS](https://img.shields.io/badge/AWS-0D1117?style=flat-square&logo=amazonwebservices&logoColor=FF9900) ![Git](https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=F05032) ![Postman](https://img.shields.io/badge/Postman-0D1117?style=flat-square&logo=postman&logoColor=FF6C37) ![C](https://img.shields.io/badge/C-0D1117?style=flat-square&logo=c&logoColor=A8B9CC) ![C++](https://img.shields.io/badge/C++-0D1117?style=flat-square&logo=cplusplus&logoColor=00599C) |
+
 </div>
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35" /> GitHub Stats
+---
+
+## 🥇 Gold · what's ready to use
+
+### Shipped
+
+| | | |
+|:--|:--|:--|
+| 📈 **[INVR](https://github.com/gh0gale)** | AI stock advisor. Deterministic scoring, LLM only narrates. | `live` |
+| 💸 **[SpendStream](https://github.com/gh0gale)** | Gmail to spending insights, with a classifier that learns from corrections. | `live` |
+| 🚆 **[Travelr](https://github.com/gh0gale)** | Commute planner that matches you with people on your route. | `demo` |
+
+### Telemetry
 
 <div align="center">
 
-<!-- These cards are generated INSIDE your repo by the workflow, so they always load -->
-<img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="49%" alt="Profile details"/>
-<img src="profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="Stats"/>
+<img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="49%" alt="profile details"/>
+<img src="profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="stats"/>
 
-<img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Most committed languages"/>
-<img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="Repos per language"/>
+<img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="most committed languages"/>
+<img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="repos per language"/>
 
-<img src="profile-summary-card-output/tokyonight/4-productive-time.svg" width="60%" alt="Productive time"/>
+<img src="profile-summary-card-output/tokyonight/4-productive-time.svg" width="60%" alt="when I code"/>
 
 <br><br>
 
-<img src="https://streak-stats.demolab.com/?user=gh0gale&theme=tokyonight&hide_border=true&stroke=00D4FF&ring=00D4FF&fire=FF6B6B&date_format=M%20j%5B%2C%20Y%5D" width="70%" alt="Streak"/>
-
-<br><br>
-
-<img src="/metrics_plugin_isocalendar_fullyear.svg" width="480" alt="Contribution isocalendar"/>
+<img src="/metrics_plugin_isocalendar_fullyear.svg" width="480" alt="contribution isocalendar"/>
 
 </div>
 
 ---
 
-<div align="center">
-  <h1>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&width=700&lines=Data+is+everything.;Pipelines+over+spreadsheets.;Systems+over+scripts.+Always.;Clean+the+data.+Trust+the+math.+Explain+with+AI." alt="Typing SVG"/>
-  </h1>
-</div>
+## 📡 Reach me
+
+```bash
+$ open https://portfolio-agent-gh0gale.vercel.app    # portfolio
+$ mail info.ghogale@gmail.com                         # email
+$ open https://linkedin.com/in/yash-ghogale           # linkedin
+```
 
 <div align="center">
-  Thanks for visiting my profile! If you have a messy data problem, let's talk. 🚀
-  <br><br>
-  <a href="https://portfolio-agent-gh0gale.vercel.app"><b>→ See my portfolio</b></a>
+  <sub>pipelines over spreadsheets · systems over scripts · always</sub>
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:2B4ACB,100:00D4FF&height=100&section=footer" width="100%" alt="footer"/>
